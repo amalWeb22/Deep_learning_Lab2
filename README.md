@@ -8,7 +8,7 @@ L'objectif final est de comparer les performances de ces modèles en termes de p
 Le projet utilise le dataset MNIST, qui contient des images de chiffres manuscrits. Chaque image est en niveaux de gris, de taille 28x28 pixels, 
 et est étiquetée avec le chiffre qu'elle représente, allant de 0 à 9.
 
-## ## Synthèse
+## Synthèse
 Le **Vision Transformer (ViT)**, implémenté à partir de zéro, présente une *précision plus faible* par rapport aux modèles *CNN* et *VGG16*.
 Cela s'explique par la complexité du ViT, qui nécessite davantage de données et d'entraînement pour atteindre des performances optimales.
 En revanche, les modèles *CNN* et *VGG16*, souvent pré-entraînés sur des ensembles de données plus vastes, bénéficient d'une meilleure généralisation
